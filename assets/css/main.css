@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #13171C;
+    background-image: url("../img/Square.svg");
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    color: #ced4da;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+/* Heading */
+
+.heading {
+    font-weight: 700;
+    font-size: 2.6rem;
+    background: -webkit-linear-gradient(#9f23f1, #250344);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content-easy {
+    border-bottom: 1px solid#343a40;
+    border-top: 1px solid#343a40;
+    position: relative;
+    background-color: #0c1323;
+}
+
+.main-content-medium{
+    border-bottom: 1px solid#343a40;
+    border-top: 1px solid#343a40;
+    position: relative;
+    background-color: #0c1323;
+}
+
+.main-content-hard{
+    border-bottom: 1px solid#343a40;
+    border-top: 1px solid#343a40;
+    position: relative;
+    background-color: #0c1323;
+}
+
+.sub-heading {
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform: translate(-50%, 0);
+    background-color: #10172a;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    color: #ced4da;
+}
+
+.content-roadmap p{
+    background-color: #10172a;
+    border: 1px solid #343a40;
+    color: #ced4da;
+    border-radius: 8px;
+}
+
+.left,
+.right {
+  color: #ced4da;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.content-roadmap p:hover{
+    border: 1px solid #b2b3b4;
+    cursor: pointer;
+}
+
+.medium {
+    color: #ff9900;
+}
+
+.easy {
+    color: #3cff00;
+}
+
+.hard {
+    color: #ff0000;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Different Colors */
+#purple-light {
+    background-color: #9158c0;
+    width: 910px;
+    height: 910px;
+    top: -50%;
+    left: -25%;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    filter: blur(250px);
+    opacity: 0.2;
+}
+
+#blue-light {
+    background-color: #4e5bcf;
+    width: 910px;
+    height: 910px;
+    top: -50%;
+    right: -25%;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    filter: blur(250px);
+    opacity: 0.2;
+}
+
+#dark-light {
+    background-color: #0b7691;
+    width: 1000px;
+    height: 1000px;
+    bottom: -50%;
+    right: -25%;
+    border-radius: 50%;
+    z-index: 5;
+    position: absolute;
+    filter: blur(250px);
+    opacity: 0.1;
+}
